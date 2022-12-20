@@ -63,7 +63,7 @@ export default function Brands({brands}){
 
                         <Table.Body>
                             {brandsList.map((item,index) => (
-                                <Table.Row>
+                                <Table.Row key={item.id}>
                                     <Table.Cell>
                                         {item.name}
 
